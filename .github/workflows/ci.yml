@@ -15,7 +15,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
-        node-version: '3.11'
+        python-version: '3.11'
 
     - name: Run the app
       run: python app.py
